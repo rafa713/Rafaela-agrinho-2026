@@ -1,1 +1,42 @@
 
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #d4f1c5;
+}
+
+h1 {
+    color: #2e7d32;
+}
+
+#score {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#gameArea {
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: #a8d5ba;
+    border: 3px solid #333;
+    position: relative;
+    overflow: hidden;
+}
+
+#player {
+    width: 50px;
+    height: 50px;
+    background-color: gold;
+    position: absolute;
+    bottom: 10px;
+    left: 275px;
+    border-radius: 10px;
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 50%;
+}
