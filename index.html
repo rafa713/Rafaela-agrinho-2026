@@ -3,19 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guardião da Natureza</title>
+    <title>Agro Forte - Futuro Sustentável</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>🌱 Guardião da Natureza</h1>
-    <p id="score">Pontuação: 0</p>
+    <header>
+        <h1>Agro Forte - Futuro Sustentável</h1>
+        <p>Promovendo agricultura produtiva e responsável</p>
+    </header>
 
-    <div id="gameArea">
-        <div id="player"></div>
-    </div>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
 
-    <script src="game.js"></script>
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>
+            O Agro Forte acredita em um futuro sustentável para a agricultura.
+            Buscamos integrar tecnologia, preservação ambiental e bem-estar social.
+        </p>
 
+        <img
+            src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
+            alt="Agricultura Sustentável">
+    </section>
+
+    <section id="projetos">
+        <h2>Nossos Projetos</h2>
+
+        <ul>
+            <li>Uso de energias renováveis na agricultura</li>
+            <li>Reciclagem e compostagem de resíduos agrícolas</li>
+            <li>Capacitação de agricultores em técnicas sustentáveis</li>
+            <li>Proteção da biodiversidade local</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+
+        <form id="contatoForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Agro Forte - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
